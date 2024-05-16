@@ -1,0 +1,17 @@
+<!-- res/layout/nav_header_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <!-- User's profile picture -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#000000"
+        android:src="@drawable/elespa_hev_pvt_ltd_cover" />
+
+    <!-- User's name -->
+</LinearLayout>

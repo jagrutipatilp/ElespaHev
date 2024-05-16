@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.A" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#DF00897B</item>
+        <item name="colorPrimaryVariant">#000000</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <item name="colorPrimaryDark">@color/white</item>
+        <!-- Secondary brand color. -->
+
+        <item name="windowActionBar">false</item>
+    </style>
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">22sp</item> <!-- Increase the title size -->
+        <item name="android:textStyle">bold</item> <!-- Make the text bold -->
+    </style>
+
+</resources>
